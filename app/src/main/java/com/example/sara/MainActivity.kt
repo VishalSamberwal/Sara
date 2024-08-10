@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         submitbtn.setOnClickListener{
           val prompt = etprompt.text.toString()
-            val generativeModel = GenerativeModel(modelName = "gemini-pro", apiKey = "AIzaSyC8hvqAZjA3S5qAsfWD5U-q3X405ZA7_6c" )
+            val generativeModel = GenerativeModel(modelName = "gemini-pro", apiKey = "Enter Your Own Api Key here" )
 
             runBlocking{
 
